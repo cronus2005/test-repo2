@@ -1,6 +1,8 @@
 first = int(input("Enter the first number : "))
 second = int(input("Enter the second number : "))
 
-result = first + second
+sum = first + second
+sub = abs(first - second)
 
-print("Sum : ", result)
+print("Sum : ", sum)
+print("Difference : ", sub)
