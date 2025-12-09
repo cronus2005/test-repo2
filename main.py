@@ -1,6 +1,6 @@
-num1 = int(input("input number 1: "))
-num2 = int(input("input number 2: "))
+first = int(input("Enter the first number : "))
+second = int(input("Enter the second number : "))
 
-num3 = num1 + num2
+result = first + second
 
-print(num3)
+print("Sum : ", result)
